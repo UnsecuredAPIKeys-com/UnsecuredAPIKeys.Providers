@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Version>1.0.0</Version>
+    <PackageId>UnsecuredAPIKeys.Providers.Core</PackageId>
+    <Authors>UnsecuredAPIKeys.com</Authors>
+    <Company>UnsecuredAPIKeys.com</Company>
+    <Product>UnsecuredAPIKeys Provider Core Contracts</Product>
+    <Description>Core contracts and interfaces for UnsecuredAPIKeys provider plugins</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/UnsecuredAPIKeys-com/API.Providers</RepositoryUrl>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Http" Version="10.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="10.0.0" />
+  </ItemGroup>
+</Project>
